@@ -1,0 +1,12 @@
+FIPS: ^\d{2}$
+population: ^\d+$
+land_area: ^\d+(\.\d+)?$
+common_name: ^[A-Za-zÀ-ÖØ-öø-ÿ]+(?: [A-Za-zÀ-ÖØ-öø-ÿ]+)*$
+full_name: ^[A-Za-zÀ-ÖØ-öø-ÿ]+(?: [A-Za-zÀ-ÖØ-öø-ÿ]+)*$
+map_color: ^#[0-9A-Fa-f]{6}$
+flag_loc: ^(https?|ftp)://[^\s/$.?#].[^\s]*$
+abbreviation: ^[A-Z]{2}$
+motto: ^.{1,200}$
+nickname: ^.{1,100}$
+capital: ^[A-Za-zÀ-ÖØ-öø-ÿ]+(?: [A-Za-zÀ-ÖØ-öø-ÿ]+)*$
+descriptors: ^\[\"[A-Za-z]+\"(?:,\"[A-Za-z]+\")*\]$
